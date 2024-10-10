@@ -22,3 +22,9 @@ cat << EOF > "${SHORTCUTS_DIR}/logseq-log.sh"
 bash $SCRIPT_DIR/log.sh
 EOF
 chmod +x "${SHORTCUTS_DIR}/logseq-log.sh"
+
+cat << EOF > "${SHORTCUTS_DIR}/logseq-status.sh"
+#!/bin/bash
+bash $SCRIPT_DIR/status.sh
+EOF
+chmod +x "${SHORTCUTS_DIR}/logseq-status.sh"
