@@ -7,18 +7,18 @@ mkdir -p "$SHORTCUTS_DIR"
 
 cat << EOF > "${SHORTCUTS_DIR}/logseq-push.sh"
 #!/bin/bash
-$SCRIPT_DIR/push.sh
+bash $SCRIPT_DIR/push.sh
 EOF
 chmod +x "${SHORTCUTS_DIR}/logseq-push.sh"
 
 cat << EOF > "${SHORTCUTS_DIR}/logseq-pull.sh"
 #!/bin/bash
-$SCRIPT_DIR/pull.sh
+bash $SCRIPT_DIR/pull.sh
 EOF
 chmod +x "${SHORTCUTS_DIR}/logseq-pull.sh"
 
 cat << EOF > "${SHORTCUTS_DIR}/logseq-log.sh"
 #!/bin/bash
-$SCRIPT_DIR/log.sh
+bash $SCRIPT_DIR/log.sh
 EOF
 chmod +x "${SHORTCUTS_DIR}/logseq-log.sh"
