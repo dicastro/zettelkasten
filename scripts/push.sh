@@ -13,7 +13,7 @@ git add .
 echo -e "Commiting files...\n"
 git commit -m "cambios desde ${DEVICE_NAME}"
 
-echo -e "Pushing...\n"
+echo -e "\nPushing...\n"
 git push
 popd > /dev/null 2>&1
 
