@@ -1,0 +1,6 @@
+
+# config for merge
+[merge "git-crypt"]
+	name = A custom merge driver used to merge git-crypted files.
+	driver = $HOME/.zettelkasten/my-merge-tool.sh %O %A %B
+	recursive = binary
