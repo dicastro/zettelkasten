@@ -9,8 +9,8 @@ load_device_config
 install_merge_tool
 
 pushd ${GH_REPO_PATH} > /dev/null 2>&1
-echo -e "Cleanin bak folder...\n"
-git clean -fd logseqdb/logseq/bak/
+echo -e "Cleaning bak folder...\n"
+git clean -fd logseqdb/logseq/bak/ 2>/dev/null
 
 echo -e "Adding files to commit...\n"
 git add .
